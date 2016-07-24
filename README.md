@@ -77,6 +77,15 @@ Usage
 'use strict'
 
 const aclosure = require('aclosure')
+const co = require('co')
+
+co(function * () {
+  // Compile script with closure compiler
+  yield aclosure(
+    'public/bundle.js',
+    'public/bundle.cc.js'
+  )
+}).catch((err) => console.error(err))
 
 ```
 
@@ -103,6 +112,8 @@ This software is released under the [MIT License](https://github.com/a-labo/aclo
 Links
 ------
 
++ [ClosureCompiler][closure_compiler_url]
 
+[closure_compiler_url]: https://github.com/dcodeIO/ClosureCompiler.js#readme
 
 <!-- Links End -->
