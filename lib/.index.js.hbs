@@ -1,0 +1,17 @@
+/**
+ * {{pkg.description}}
+ * @module {{pkg.name}}
+ * @version {{pkg.version}}
+ */
+
+'use strict'
+
+const aclosure = require('./aclosure')
+
+let lib = aclosure.bind(this)
+
+Object.assign(lib, {
+  aclosure
+})
+
+module.exports = lib

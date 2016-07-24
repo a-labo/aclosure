@@ -1,0 +1,43 @@
+{
+  "name": "aclosure",
+  "version": "1.0.0",
+  "description": "Closure compiler wrapper",
+  "main": "lib",
+  "scripts": {
+    "test": "./ci/test.js",
+    "prepublish": "./ci/build.js"
+  },
+  "repository": "a-labo/aclosure",
+  "keywords": [],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishitaka.com@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-labo/aclosure/issues"
+  },
+  "homepage": "https://github.com/a-labo/aclosure#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "defaults": "^1.0.3",
+    "hasbin": "^1.2.3",
+    "writeout": "^2.0.6"
+  },
+  "devDependencies": {
+    "amocha": "^1.0.8",
+    "ape-formatting": "^1.0.2",
+    "ape-releasing": "^4.0.2",
+    "ape-reporting": "^3.0.1",
+    "ape-tasking": "^4.0.7",
+    "ape-tmpl": "^5.0.14",
+    "ape-updating": "^4.0.4",
+    "coz": "^6.0.14",
+    "injectmock": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  }
+}
