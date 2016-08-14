@@ -112,8 +112,10 @@ This software is released under the [MIT License](https://github.com/a-labo/aclo
 Links
 ------
 
-+ [ClosureCompiler][closure_compiler_url]
++ [a-labo][a_labo_url]
++ [closure-compiler][closure_compiler_url]
 
-[closure_compiler_url]: https://github.com/dcodeIO/ClosureCompiler.js#readme
+[a_labo_url]: https://github.com/a-labo
+[closure_compiler_url]: https://developers.google.com/closure/compiler/
 
 <!-- Links End -->

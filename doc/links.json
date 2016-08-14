@@ -1,3 +1,4 @@
 {
-  "ClosureCompiler": "https://github.com/dcodeIO/ClosureCompiler.js#readme"
+  "a-labo": "https://github.com/a-labo",
+  "closure-compiler": "https://developers.google.com/closure/compiler/"
 }
