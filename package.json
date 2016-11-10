@@ -1,6 +1,6 @@
 {
   "name": "aclosure",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Closure compiler wrapper",
   "main": "lib",
   "browser": false,
@@ -25,7 +25,7 @@
   "dependencies": {
     "asfs": "^1.1.1",
     "co": "^4.6.0",
-    "google-closure-compiler-js": "^20161024.0.0",
+    "google-closure-compiler": "^20161024.2.0",
     "writeout": "^2.0.7"
   },
   "devDependencies": {
